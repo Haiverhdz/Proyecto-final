@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    background-image: url(../assets/images/4413db979f336606a3a90926669a6c6e.jpeg);
+}
+@font-face {
+    font-family: rubik;
+    src: url(../assets/fonts/RubikGlitchPop-Regular.ttf)
+}
+
+.titulos{
+    text-align: center;
+    font-size: 25px;
+    font-family:Arial, 
+    Helvetica, sans-serif;
+    border: solid;
+    padding: 20px;
+    color:antiquewhite;
+}
+
+header{
+    padding: 20px 20px 20px 0px;
+    background-color:#56616E;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    border:solid;
+    content: normal;
+    background-image: url(../assets/images/c0a080_2d556491e4014ce59dbb6dbc4929f93a~mv2.jpeg);
+    border-radius: 20px;
+    margin-left: 5px;
+    margin-right: 15px;
+}
+
+ul { 
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+}
+
+a{
+    text-decoration: none;
+    border: 1px;
+    border-color: black;
+    color: rgb(220, 214, 206);
+
+}
+
+section{
+    margin: 0 auto;;
+    margin-left: 25px;
+    margin-right: 35px;
+    width: 94%;
+    color:rgb(89, 90, 19);
+    padding: 20px;
+    
+}
+
+#image-logo{
+    display: flex;
+    justify-content: flex-start;
+    height: 20px;
+    width: 20px;
+    margin: 30px;
+    background-color:#56616E;
+    border: none;
+}
+
+#sections{
+    background-image: url(../assets/images/c0a080_2d556491e4014ce59dbb6dbc4929f93a~mv2.jpeg);
+    margin: 0 auto;;
+    margin-left: 5px;
+    margin-right: 15px;
+    padding: 10px;
+    width: 99%;
+    color: antiquewhite;
+    border-radius: 20px;
+    gap:20px;
+}
+
+.style-articles{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+ul li{
+    list-style: none;
+}
+
+#colectivo{
+    font-family: 'Courier New', Courier, monospace;
+    border-bottom: solid;
+}
+
+.a-djs{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: none;
+    background-color:aqua;
+    text-decoration:underline;
+    color: black;
+    border-radius: 0px 0px 0px 0px;
+    border: solid;
+    font-size: 20px;
+    padding: 1px;
+
+}
+
+.divs{
+    display:inline-block;
+    width: 400px;
+    vertical-align: top;
+    margin-left: 25px;
+    height: 350px;
+    color: aliceblue;
+    margin-right: 35px;
+}
+
+.djs{
+    background-image: url(../assets/images/ritvales.webp);
+    width: 52%;
+    display:inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    height: 350px;
+    background-position: right;
+    gap: 20px;
+    color: antiquewhite; 
+    border-radius: 20px;
+}
+
+.djs-index{
+    padding: 20px;
+    
+}
+
+
+footer{
+    width: 94%;
+    margin-left: 5px;
+    margin-right: 15px;
+    text-align: center;
+    background-image: url(../assets/images/background-1.jpeg);
+    color: aliceblue;
+    border-radius: 20px;
+}
+
+.grid-events{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 150px 150px;
+}
+
+.grills-djs{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 50% 50%;
+    gap: 20px;
+}
+
