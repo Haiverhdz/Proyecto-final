@@ -7,47 +7,61 @@
     <title>Galeria</title>
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="shortcut icon" href="../assets/images/Captura de Pantalla 2024-02-07 a la(s) 6.52.36 p.m..png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     
 </head>
 <header>
     <ul>
-         <li><a href="/index.html"><img  width="50" height="50" src="./assets/images/Captura de Pantalla 2024-02-07 a la(s) 6.52.36 p.m..png" alt="logo"></a></li>
+         <li><a href="/index.html"><img  width="50" height="50" src="../assets/images/Captura de Pantalla 2024-02-07 a la(s) 6.52.36 p.m..png" alt="logo"></a></li>
                 <li><a href="https://www.instagram.com/haiverhernandez/">Instagram</a></li>
                 <li><a href="https://web.facebook.com/ha.iver1997?_rdc=1&_rdr">Facebook</a></li>
                 <li><a href="https://wa.link/fo11vd">WhatsApp</a></li>
-                <li><a href="./pages/galeria.html">Galeria</a></li>
-                <li><a href="./pages/proximos-eventos.html">Proximos eventos</a></li>
-                <li><a href="./pages/residentes.html">Residentes</a></li>
-            </ul>
+                <li><a href="../pages/galeria.html">Galeria</a></li>
+                <li><a href="../pages/proximos-eventos.html">Proximos eventos</a></li>
+                <li><a href="../pages/residentes.html">Residentes</a></li>
+    </ul>
 </header>
 <body>
-    <section>
-        <h1 class="titulos">Galeria</h1>
+    <section class="container">
+        <div>
+            <h1 class="titulos">Galeria</h1>
         <p>En esta seccion vas a econtrar el mejor registro fotografico de nuestro colectivo.</p>
-        <br>
-        <img src="../assets/images/wexen1.png" width="40%" height="40%" alt="wexen-g">
-        <img src="../assets/images/aomos1.png" width="35%" height="35%" alt="aomos-g">
-        <img src="../assets/images/fans-carv.png" width="40%" height="40%" alt="fans">
-        <img src="../assets/images/ritvales.webp" width="40%" height="40%" alt="ritvales-g">
     </section>
-    <footer>
-        <h2>Te contactamos</h2>
-        <p>Dejanos tus datos te contactamos</p>
-        <div>
-            <label for="name">Nombre</label>
-            <input type="text" id="name">
+    
+    <section class="grills-djs">
         </div>
-        <div>
-            <label for="phone">Celular</label>
-            <input type="number" id="phone">
-        </div>
-        <div>
-            <label for="email">Correo electronico</label>
-            <input type="text" id="email">
-        </div>
+        
+        <img src="../assets/images/wexen1.png" width="80%" height="90%" alt="wexen-g">
+        
+        <img src="../assets/images/aomos1.png" width="80%" height="80%" alt="aomos-g">
+        
+        <img src="../assets/images/fans-carv.png" width="80%" height="80%" alt="fans">
+       
+        <img src="../assets/images/ritvales.webp" width="80%" height="80%" alt="ritvales-g">
+        
+    </section>
 
-        <button>Enviar</button>
+    <footer>
+        <section class="footer">
+            <h2>Te contactamos</h2>
+            <p>Dejanos tus datos te contactamos</p>
+            <div>
+                <label for="name">Nombre</label>
+                <input type="text" id="name">
+            </div>
+            <div>
+                <label for="phone">Celular</label>
+                <input type="number" id="phone">
+            </div>
+            <div>
+                <label for="email">Correo electronico</label>
+                <input type="text" id="email">
+            </div>
+
+            <button class="btn btn-success">Enviar</button>
+        </section>
 
     </footer>
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

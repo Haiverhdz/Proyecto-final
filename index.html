@@ -10,6 +10,7 @@
     <link rel="shortcut icon" href='./assets/images/Captura de Pantalla 2024-02-07 a la(s) 6.52.36 p.m..png'' type="image/x-icon">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
 </head>
+
     <header>
         <ul>
              <li><a href="/index.html"><img  width="50" height="50" src="./assets/images/Captura de Pantalla 2024-02-07 a la(s) 6.52.36 p.m..png" alt="logo"></a></li>
@@ -19,11 +20,12 @@
                     <li><a href="./pages/galeria.html">Galeria</a></li>
                     <li><a href="./pages/proximos-eventos.html">Proximos eventos</a></li>
                     <li><a href="./pages/residentes.html">Residentes</a></li>
-                </ul>
+        </ul>
     </header>
+
     <body>
     <main>
-        <section id="sections" class="container-fluid">
+        <section id="sections" class="container-fluid ">
             <div>
                 <h1 class="titulos">Ñangui’s Colective</h1>
                 <h2>Nosotro como colectivo</h2>
@@ -32,67 +34,76 @@
                     </article>
             </div>
 
-            <div id="list">
-                <h3>Te ofrecemos</h3>
-                <ol>
-                    <li>Asesoria para djs</li>
-                    <li>Venta de boletas para eventos</li>
-                    <li>La mejor musica</li>
-                </ol>
-                <p><strong>somos tu mejor opcion, recuerdalo</strong> </p>
-                <h3>Tambien vendemos equipos</h3>
-                <ul>
-                    <li>Cdj</li>
-                    <li>Rx</li>
-                    <li>Cabinas</li>
-                </ul>
+            <div>
+                <div>
+                    <h3>Te ofrecemos</h3>
+                    <ol>
+                        <li>Asesoria para djs</li>
+                        <li>Venta de boletas para eventos</li>
+                        <li>La mejor musica</li>
+                    </ol>
+                    <p><strong>somos tu mejor opcion, recuerdalo</strong> </p>
+                </div>
+
+                <div>
+                    <h3>Tambien vendemos equipos</h3>
+                    <ol>
+                        <li>Cdj</li>
+                        <li>Rx</li>
+                        <li>Cabinas</li>
+                    </ol>
+                </div>
             </div>
         </section>
     </main>
+    
     <section class="djs">
-         <div class="djs-index">
-            <h2>Djs residentes</h2>
-            <h2>
-                <a href="./pages/wexen.html" class="a-djs">Wexen</a>
-            </h2>
-            <p>
-                Jacob Jimenez, mas reconocido en el mundo de la musica como "Wexen" comienza su carrera musical en el 2023, su corta trayectoria ha sido exitosa, tanto que ya se ha presentado en uno de los mejores clubes de la ciudad, este joven se caractriza pot tocar hardtechno e indutrial techno.
-            </p>
-        </div>
         <div>
-            <h2>
-                <a href="./pages/aomos.html" class="a-djs">Aomos</a>
-            </h2>
-            <p>
-                Andrey Ortiz un joven nacido en la capital de Antioquia, mas reconocido por su aka como 'Aomos' es uno de los principales artistas de este colectivo, con ta solo 24 ya lleva 4 anos en la musica, se caracteriza mas por sus sonidos contundentes y neo rave.
-            </p>
+                <h2>Djs residentes</h2>
+             <div class="">
+                <h2>
+                    <a href="./pages/wexen.html" class="a-djs">Wexen</a>
+                </h2>
+                <p>
+                    Jacob Jimenez, mas reconocido en el mundo de la musica como "Wexen" comienza su carrera musical en el 2023, su corta trayectoria ha sido exitosa, tanto que ya se ha presentado en uno de los mejores clubes de la ciudad, este joven se caractriza pot tocar hardtechno e indutrial techno.
+                </p>
+            </div>
+            <div class="">
+                <h2>
+                    <a href="./pages/aomos.html" class="a-djs">Aomos</a>
+                </h2>
+                <p>
+                    Andrey Ortiz un joven nacido en la capital de Antioquia, mas reconocido por su aka como 'Aomos' es uno de los principales artistas de este colectivo, con ta solo 24 ya lleva 4 anos en la musica, se caracteriza mas por sus sonidos contundentes y neo rave.
+                </p>
+            </div>
         </div>
     </section>
-    <div class="divs">
-        <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
-        </iframe>
-    </div> 
-         
-    
+        <div class="iframe">
+            <iframe width="400" height="350" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+            </iframe>
+        </div> 
+          
         
 
     <footer>
-        <h2>Te contactamos</h2>
-        <p>Dejanos tus datos te contactamos</p>
-        <div>
-            <label for="name">Nombre</label>
-            <input type="text" id="name">
-        </div>
-        <div>
-            <label for="phone">Celular</label>
-            <input type="number" id="phone">
-        </div>
-        <div>
-            <label for="email">Correo electronico</label>
-            <input type="text" id="email">
-        </div>
+        <section class="footer">
+            <h2>Te contactamos</h2>
+            <p>Dejanos tus datos te contactamos</p>
+            <div>
+                <label for="name">Nombre</label>
+                <input type="text" id="name">
+            </div>
+            <div>
+                <label for="phone">Celular</label>
+                <input type="number" id="phone">
+            </div>
+            <div>
+                <label for="email">Correo electronico</label>
+                <input type="text" id="email">
+            </div>
 
-        <button>Enviar</button>
+            <button class="btn btn-success">Enviar</button>
+        </section>
 
     </footer>
     <script src="./js/bootstrap.bundle.min.js"></script>
