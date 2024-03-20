@@ -6,36 +6,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>wexen</title>
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="shortcut icon" href="../assets/images/Captura de Pantalla 2024-02-07 a la(s) 6.52.36 p.m..png" type="image/x-icon">
 </head>
 
 <header>
-    <ul>
-         <li><a href="/index.html"><img  width="50" height="50" src="../assets/images/Captura de Pantalla 2024-02-07 a la(s) 6.52.36 p.m..png" alt="logo"></a></li>
-                <li><a href="https://www.instagram.com/haiverhernandez/">Instagram</a></li>
-                <li><a href="https://web.facebook.com/ha.iver1997?_rdc=1&_rdr">Facebook</a></li>
-                <li><a href="https://wa.link/fo11vd">WhatsApp</a></li>
-                <li><a href="../pages/galeria.html">Galeria</a></li>
-                <li><a href="../pages/proximos-eventos.html">Proximos eventos</a></li>
-                <li><a href="../pages/residentes.html">Residentes</a></li>
-     </ul>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/index.html">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../pages/galeria.html">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/residentes.html">Residentes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/proximos-eventos.html">Proximos eventos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Redes sociales
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="https://wa.link/fo11vd">WhatsApp</a></li>
+                  <li><a class="dropdown-item" href="https://web.facebook.com/ha.iver1997?_rdc=1&_rdr">Facebook</a></li>
+                  <li><a class="dropdown-item" href="https://www.instagram.com/haiverhernandez/">Instagram</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>    
 </header>
 
 <body>
-    <section>
+    <main>
         <h1 class="titulos">Wexen</h1>
-        <p>Jacob Jimenez, mas reconocido en el mundo de la musica como "Wexen" comienza su carrera musical en el 2023, su corta trayectoria ha sido exitosa, tanto que ya se ha presentado en uno de los mejores clubes de la ciudad, este joven se caractriza pot tocar hardtechno e indutrial techno.</p>
-        <img src="../assets/images/wexen1.png" width="30%" height="30%" alt="Wexen">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/WaeBzGXeNj8?si=6GnnfvEOk1P4lZ_v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <p>A continuacion te dejamos su conctacto.</p>
-        <a href="https://wa.link/fo11vd">conctacto</a>
-    </section>
+        <section class="grills-djs">
+            <div>
+                <p>Jacob Jimenez, mas reconocido en el mundo de la musica como "Wexen" comienza su carrera musical en el 2023, su corta trayectoria ha sido exitosa, tanto que ya se ha presentado en uno de los mejores clubes de la ciudad, este joven se caractriza pot tocar hardtechno e indutrial techno.</p>
+                <img src="../assets/images/wexen1.png" width="50%" height="50%" alt="Wexen">
+            </div>
+            <div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/WaeBzGXeNj8?si=p7AWueh_TJXvkIPG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div>
+                <p>A continuacion te dejamos su conctacto.</p>
+                <a href="https://wa.link/fo11vd">conctacto</a>
+            </div>
+        </section>
+    </main>
 
     <footer>
-        <section class="footer">
+        <section class="footer container">
             <h2>Te contactamos</h2>
             <p>Dejanos tus datos te contactamos</p>
-            <div>
+            <div class="mb-3">
                 <label for="name">Nombre</label>
                 <input type="text" id="name">
             </div>
@@ -47,10 +78,13 @@
                 <label for="email">Correo electronico</label>
                 <input type="text" id="email">
             </div>
-
-            <button class="btn btn-success">Enviar</button>
+            <br>
+            <div>
+                <button class="btn btn-outline-success">Enviar</button>
+            </div>
         </section>
 
     </footer>
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
