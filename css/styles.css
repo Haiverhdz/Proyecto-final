@@ -255,3 +255,9 @@ p{
         grid-template-rows: 30% 60% 10%;
     }
 }
+
+#button-nav{
+    border-color: antiquewhite;
+    color: antiquewhite;
+    
+}
