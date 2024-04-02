@@ -1,2 +1,8 @@
-@import "layout/_layout.scss";
-@import "base/reset"
+@import "base/reset";
+@import "utilities/variables";
+@import "base/typography";
+@import "components/buttons";
+@import "layout/header";
+@import "layout/layout";
+@import "layout/footer"
+
