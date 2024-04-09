@@ -1,8 +1,14 @@
-@import "base/reset";
-@import "utilities/variables";
-@import "base/typography";
-@import "components/buttons";
-@import "layout/header";
-@import "layout/layout";
-@import "layout/footer"
-
+@import 'base/reset';
+@import 'base/animations';
+@import 'base/fonts';
+@import 'base/gradients';
+@import 'components/buttons';
+@import 'layout/footer';
+@import 'layout/header';
+@import 'layout/header';
+@import 'layout/layout';
+@import 'layout/navbar';
+@import 'base/typography';
+@import 'layout/principal';
+@import 'utilities/variables';
+@import 'layout/animations'
