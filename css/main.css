@@ -137,7 +137,7 @@ section {
 
 .grills-djs {
   display: grid;
-  grid-template-columns: 60% auto;
+  grid-template-columns: 65% auto;
   grid-template-rows: 50% 50%;
   gap: 20px;
   align-items: center;
@@ -145,6 +145,11 @@ section {
   padding: 80px;
   justify-content: center;
   align-items: center;
+  animation-name: animation-djs;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-delay: 3s;
+  animation-timing-function: ease-in;
 }
 
 .grid-dj {
@@ -165,6 +170,19 @@ section {
   font-family: Arial, Helvetica, sans-serif;
   padding: 20px;
   color: antiquewhite;
+  gap: 20px;
+}
+
+.container-iframe {
+  display: flex;
+  justify-content: center;
+}
+
+iframe {
+  max-width: 560px;
+  width: 100%;
+  display: block;
+  margin: auto;
   gap: 20px;
 }
 
@@ -211,13 +229,13 @@ h1 {
 
 @keyframes animation-djs {
   0% {
-    width: 50%;
+    width: 80%;
   }
   50% {
-    width: 68%;
+    width: 85%;
   }
   100% {
-    width: 60%;
+    width: 90%;
   }
 }
 @media (max-width: 480px) {
@@ -241,6 +259,27 @@ h1 {
     grid-template-rows: 18% 18% 18% 18% 18%;
     padding: 20px;
     gap: 10px;
+  }
+}
+@media (max-width: 480px) {
+  #section-djs {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+    background-size: cover;
+    justify-content: center;
+  }
+}
+@media (max-width: 480px) {
+  .iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
   }
 }
 #sections {
@@ -271,24 +310,24 @@ h1 {
   gap: 20px;
   color: antiquewhite;
   border-radius: 20px;
+}
+
+#section-djs {
+  background-image: url(/assets/images/ritvales.jpg);
+  margin: 0 auto;
+  margin-left: 3%;
+  margin-right: 5%;
+  padding: 10px;
+  width: 92%;
+  color: antiquewhite;
+  border-radius: 20px;
+  gap: 20px;
+  background-size: cover;
   animation-name: animation-djs;
   animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-delay: 3s;
   animation-timing-function: ease-in;
-}
-
-.iframe {
-  background-size: cover;
-  width: 30%;
-  display: inline-block;
-  vertical-align: top;
-  margin-left: 10px;
-  height: 350px;
-  background-position: right;
-  gap: 20px;
-  color: antiquewhite;
-  border-radius: 20px;
 }
 
 /*# sourceMappingURL=main.css.map */
