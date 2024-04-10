@@ -1,0 +1,18 @@
+$page-type: "servicios";
+
+@if $page-type == "servicios"{
+    body{
+        background-color: $color-primary;
+    }
+}
+    @else{
+        body{
+         background-color: $color-secundary;
+    }
+}
+
+@for $iterador from 1 through length($colors){
+    .color-#{nth($colors, $iterador)}{
+        background-color: nth($colors, $iterador);
+    }
+}

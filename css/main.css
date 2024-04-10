@@ -330,4 +330,52 @@ h1 {
   animation-timing-function: ease-in;
 }
 
+body {
+  background-color: antiquewhite;
+}
+
+.color-red {
+  background-color: red;
+}
+
+.color-black {
+  background-color: black;
+}
+
+.color-white {
+  background-color: white;
+}
+
+.color-green {
+  background-color: green;
+}
+
+.color-yellow {
+  background-color: yellow;
+}
+
+.color-blue {
+  background-color: blue;
+}
+
+.color-orange {
+  background-color: orange;
+}
+
+.color-pink {
+  background-color: pink;
+}
+
+.color-purple {
+  background-color: purple;
+}
+
+.color-brown {
+  background-color: brown;
+}
+
+.color-gray {
+  background-color: gray;
+}
+
 /*# sourceMappingURL=main.css.map */
