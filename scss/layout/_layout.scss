@@ -1,11 +1,7 @@
 body{
-    background-image: url(/assets/images/footer-background-011.jpg);
+    background-image: url(../assets/images/footer-background-011.jpg);
     background-repeat: cover;
     background-size: 100%;
-}
-
-.section-pseudoclass li:first-child{
-    color: aqua;
 }
 
 section{
@@ -38,25 +34,6 @@ section{
     margin-right: 35px;
 }
 
-.djs{
-    background-image: url(/assets/images/ritvales.jpg);
-    background-size:cover ;
-    width: 62%;
-    display:inline-block;
-    vertical-align: top;
-    margin-left: 10px;
-    height: 350px;
-    background-position: right;
-    gap: 20px;
-    color: antiquewhite; 
-    border-radius: 20px;
-    animation-name: animation-djs;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    animation-delay: 3s;
-    animation-timing-function: ease-in;
-}
-
 @media (max-width: 480px){
     .djs{
         width: 100%;
@@ -78,21 +55,11 @@ section{
     }
 }
 
-.grid-events{
+.grid_events{
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 30% 30% 33%;
     gap: 20px;
-}
-
-@media (max-width: 480px){
-    .grid-events{
-        display: grid;
-        grid-template-columns: 100%;
-        grid-template-rows: 18% 18% 18% 18% 18%;
-        padding: 20px;
-        gap: 10px;
-    }
 }
 
 .grills-djs{
@@ -107,13 +74,6 @@ section{
     align-items: center;
 }
 
-@media (max-width: 480px){
-    .grills-djs{
-        display: grid;
-        grid-template-columns: 100%;
-        grid-template-rows: 25% 25% 25% 23%;
-    }
-}
 
 .grid-dj{
     display: grid;
@@ -127,10 +87,17 @@ section{
     align-items: center;
 }
 
-@media (max-width: 480px){
-    .grid-dj{
-        display: grid;
-        grid-template-columns: 100%;
-        grid-template-rows: 30% 60% 10%;
-    }
+.titulos{
+    text-align: center;
+    font-size: 25px;
+    font-family:Arial, 
+    Helvetica, sans-serif;
+    padding: 20px;
+    color:antiquewhite;
+    gap: 20px;
 }
+
+
+
+
+

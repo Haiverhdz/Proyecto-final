@@ -9,6 +9,8 @@
 @import 'layout/layout';
 @import 'layout/navbar';
 @import 'base/typography';
-@import 'layout/principal';
 @import 'utilities/variables';
-@import 'layout/animations'
+@import 'layout/animations';
+@import 'layout/mediaqueries';
+@import 'views/home';
+@import 'utilities/mixins';
