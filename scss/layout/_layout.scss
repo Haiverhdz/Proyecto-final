@@ -60,6 +60,8 @@ section{
     grid-template-columns: 50% 50%;
     grid-template-rows: 30% 30% 33%;
     gap: 20px;
+    box-shadow: 1px 1px 12px 2px black;
+    border: solid black;
 }
 
 .grills-djs{
@@ -72,11 +74,13 @@ section{
     padding: 80px;
     justify-content: center;
     align-items: center;
-    animation-name: animation-djs;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    animation-delay: 3s;
-    animation-timing-function: ease-in;
+    box-shadow: 1px 1px 12px 2px black;
+    border: solid black;
+   // animation-name: animation-djs;
+    //animation-duration: 10s;
+    //animation-iteration-count: infinite;
+    //animation-delay: 3s;
+    //animation-timing-function: ease-in;
 }
 
 
@@ -111,7 +115,7 @@ iframe {
     max-width: 560px;
     width: 100%;
     display: block;
-    margin: auto;
+    margin: 15px 10px 10px 10px;
     gap:20px;
 }
 

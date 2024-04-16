@@ -32,6 +32,8 @@ footer {
   text-align: center;
   color: antiquewhite;
   border-radius: 20px;
+  margin: 10px 10px 10px 10px;
+  height: 330px;
 }
 footer .footer {
   display: grid;
@@ -133,6 +135,8 @@ section {
   grid-template-columns: 50% 50%;
   grid-template-rows: 30% 30% 33%;
   gap: 20px;
+  box-shadow: 1px 1px 12px 2px black;
+  border: solid black;
 }
 
 .grills-djs {
@@ -145,11 +149,8 @@ section {
   padding: 80px;
   justify-content: center;
   align-items: center;
-  animation-name: animation-djs;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-  animation-delay: 3s;
-  animation-timing-function: ease-in;
+  box-shadow: 1px 1px 12px 2px black;
+  border: solid black;
 }
 
 .grid-dj {
@@ -182,7 +183,7 @@ iframe {
   max-width: 560px;
   width: 100%;
   display: block;
-  margin: auto;
+  margin: 15px 10px 10px 10px;
   gap: 20px;
 }
 
@@ -282,16 +283,28 @@ h1 {
     height: 100%;
   }
 }
+@media (max-width: 480px) {
+  .footer {
+    display: grid;
+    grid-template-columns: 40%;
+    grid-template-rows: 20% 15% 15% 15% 15% 10%;
+    justify-content: center;
+    margin-right: 10%;
+  }
+}
 #sections {
   background-image: url(/assets/images/c0a080_2d556491e4014ce59dbb6dbc4929f93a~mv2.jpg);
   margin: 0 auto;
-  margin-left: 5px;
+  margin-left: 8px;
   margin-right: 15px;
   padding: 10px;
-  width: 99%;
+  width: 98%;
   color: antiquewhite;
   border-radius: 20px;
   gap: 20px;
+  box-shadow: 1px 1px 12px 2px black;
+  gap: 50px;
+  margin: 10px 10px 10px 10px;
 }
 
 .section-pseudoclass li:first-child {
@@ -307,27 +320,23 @@ h1 {
   margin-left: 10px;
   height: 350px;
   background-position: right;
-  gap: 20px;
+  gap: 50px;
   color: antiquewhite;
   border-radius: 20px;
 }
 
 #section-djs {
   background-image: url(/assets/images/ritvales.jpg);
-  margin: 0 auto;
-  margin-left: 3%;
-  margin-right: 5%;
+  margin: 10px 10px 10px 10px;
+  margin-left: 0.5%;
+  margin-right: 0%;
   padding: 10px;
-  width: 92%;
+  width: 98%;
   color: antiquewhite;
   border-radius: 20px;
   gap: 20px;
   background-size: cover;
-  animation-name: animation-djs;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-  animation-delay: 3s;
-  animation-timing-function: ease-in;
+  box-shadow: 1px 1px 12px 2px black;
 }
 
 body {
